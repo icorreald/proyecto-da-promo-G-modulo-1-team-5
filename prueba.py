@@ -1,6 +1,6 @@
 import random
 
-reglas = {"piedra" : "papel" , "papel" : "tijeras" , "tijeras" : "piedra"}
+reglas = {"piedra" : "papel" , "papel" : ["tijeras", "tijera"] , "tijeras" : "piedra"}
 lista = ['piedra', 'papel', 'tijeras']
 puntos_jugadora = 0
 puntos_maquina = 0
